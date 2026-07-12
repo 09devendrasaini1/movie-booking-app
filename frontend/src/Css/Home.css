@@ -1,0 +1,35 @@
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    color: #2c2c2c;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    border-radius: 10px;
+}
+
+.select-movie-component {
+    flex-grow: 1;
+}
+
+.BN-btn {
+    padding: 12px 25px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(135deg, #ff4d4d, #ff1a75);
+    transition: 0.3s ease;
+}
+
+.BN-btn:hover {
+    transform: scale(1.05);
+}
+
+.wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}

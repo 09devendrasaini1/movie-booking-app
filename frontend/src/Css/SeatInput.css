@@ -1,0 +1,26 @@
+.form-check-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    background-color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    margin: 8px;
+}
+
+.seats-input {
+    width: 70px;
+    border-radius: 6px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.seats-input:focus {
+    outline: none;
+    border: 1px solid #ff4d4d;
+}

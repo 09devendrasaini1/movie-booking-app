@@ -1,0 +1,14 @@
+.SS-heading {
+    width: 100%;
+    font-size: 22px;
+    color: #2c2c2c;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.SS-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #2c2c2c;
+}

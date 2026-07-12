@@ -1,0 +1,80 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #222;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Top Section */
+.wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.select-movie-component,
+.last-booking-details-container {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Bottom Section */
+.time-seat-container {
+  margin-top: 30px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Button */
+.BN-btn {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: #e63946;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.BN-btn:hover {
+  background: #c1121f;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
