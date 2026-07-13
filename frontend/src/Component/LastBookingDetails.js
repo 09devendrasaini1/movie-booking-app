@@ -8,7 +8,7 @@ const LastBookingDetails = () => {
 
   useEffect(() => {
     handleGetBooking();
-  }, []);
+  }, [handleGetBooking]);
 
   if (!lastBookingDetails) {
     return (
@@ -29,6 +29,7 @@ const LastBookingDetails = () => {
 
       <div className="seats-container">
         <p className="seats-header">Seats:</p>
+
         <ul className="seats">
           {selectSeat.map((seat) => {
             const qty = lastBookingDetails.seats?.[seat];
