@@ -21,7 +21,7 @@ const BsState = (props) => {
 
   const handlePostBooking = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/booking", {
+      const response = await fetch("https://movie-booking-backend-gaim.onrender.com/api/booking", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -65,7 +65,7 @@ const BsState = (props) => {
 
   const handleGetBooking = useCallback(async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/booking", {
+      const response = await fetch("https://movie-booking-backend-gaim.onrender.com/api/booking", {
         method: "GET",
       });
 
